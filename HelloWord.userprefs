@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{76A6A81C-933C-4270-88D5-5243DB4635B3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWord/App.xaml.cs">
+    <Files>
+      <File FileName="HelloWord/App.xaml.cs" Line="12" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.HelloWord.Droid PreferredExecutionTarget="Android.192.168.56.101:5555" />
+  <MonoDevelop.Ide.ItemProperties.HelloWord.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2DC35460-A852-4B33-8512-6FEC87273675" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

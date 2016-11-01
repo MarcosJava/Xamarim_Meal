@@ -9,7 +9,8 @@ namespace HelloWord
 			InitializeComponent();
 
 			//MainPage = new HelloWordPage();
-			MainPage = new MainPage();
+			//MainPage = new NavigationPage(new CadastroRefeicao());
+			MainPage = new HomeTabbedPage();
 		}
 
 		protected override void OnStart()

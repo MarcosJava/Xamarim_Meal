@@ -1,14 +1,19 @@
 ﻿<Properties StartupConfiguration="{76A6A81C-933C-4270-88D5-5243DB4635B3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWord/App.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWord/Data/RefeicaoDAO.cs">
     <Files>
-      <File FileName="HelloWord/App.xaml.cs" Line="12" Column="30" />
+      <File FileName="HelloWord/CadastroRefeicao.xaml.cs" Line="11" Column="30" />
+      <File FileName="HelloWord/HomeTabbedPage.cs" Line="12" Column="71" />
+      <File FileName="HelloWord/ListRefeicoes.xaml.cs" Line="19" Column="4" />
+      <File FileName="HelloWord/Data/RefeicaoDAO.cs" Line="11" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/markFelipe/Documents/workspaces/Xamarim/HelloWord/HelloWord/HelloWord/obj/Debug/HelloWord.MainPage.xaml.g.cs" line="12" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.HelloWord.Droid PreferredExecutionTarget="Android.192.168.56.101:5555" />
-  <MonoDevelop.Ide.ItemProperties.HelloWord.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2DC35460-A852-4B33-8512-6FEC87273675" />
+  <MonoDevelop.Ide.ItemProperties.HelloWord.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FE3E9D66-BD53-41AD-A0DC-DB15CC979996" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

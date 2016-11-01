@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloWord.MainPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			 x:Class="HelloWord.MainPage">
 	<ContentPage.Content>
 		<StackLayout Padding="25"> <!-- Um abaixo do outro-->
 			<Label Text="Cadastro de Refeição" FontSize="25" />
 
 			<Label Text="Descrição" />
-			<Entry />
+			<Entry x:Name="entDescricao" Placeholder="ex.: file de frango"/>
 
-			<Label Text="Calorias" />
-			<Entry />
+			<StackLayout Orientation="Horizontal">
+				<Label Text="Calorias" />
+				<Label Text="10" x:Name="lblCalorias"/>
+			</StackLayout>
 
-			<Button Text="Salvar" />
+			<Slider x:Name="stpCalorias" Minimum="0" Maximum="1000" ValueChanged="AtualizaContador"/>
+
+			<Button Text="Salvar" Clicked="SalvaRefeicao" />
 			
 		</StackLayout>
 	</ContentPage.Content>
